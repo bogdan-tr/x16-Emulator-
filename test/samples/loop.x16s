@@ -1,0 +1,17 @@
+begin:
+        add %r1, %r0, $10
+
+start1:
+        ld  %r0, star
+        putc
+        add %r1, %r1, $-1
+        brz stop
+        jsr start1
+
+stop:
+        halt
+
+star:
+        val $42    # ASCII 42 is the * charactger
+newline:
+        val $10    # ASCII 10 is the \n character
