@@ -2,6 +2,10 @@
 
 A complete implementation of the X16 computer architecture, featuring an assembler (`xas`) and emulator (`x16`) for educational and development purposes as part of my computer systems class final project.
 
+You can play 2048 on it!
+
+<img width="283" height="233" alt="image" src="https://github.com/user-attachments/assets/27fa13c3-6349-4fca-9620-7b49b1730419" />
+
 ## Overview
 
 The X16 is a 16-bit computer architecture with:
